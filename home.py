@@ -1,5 +1,9 @@
 import streamlit as st
 
+user = st.secrets["USER"]
+password = st.secrets["PASSWORD"]
+uri_url = st.secrets["URI_URL"]
+
 st.title("Spirit recommendation system")
 
 st.divider()
